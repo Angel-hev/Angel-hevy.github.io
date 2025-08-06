@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Paintings</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    .container {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    p.intro {
+      font-size: 18px;
+      margin-bottom: 40px;
+      color: #555;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .art {
+      width: 300px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .art img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .art-description {
+      margin-top: 12px;
+      font-size: 16px;
+      color: #444;
+    }
+
+    .back-button {
+      display: inline-block;
+      margin-top: 50px;
+      padding: 10px 20px;
+      background-color: #444;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .back-button:hover {
+      background-color: #222;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>My Paintings</h1>
+    <p class="intro">
+      Art has always been my peaceful escape — a way to express emotions, stories, and colors that words sometimes can't. Each brushstroke represents a part of me. Here's a glimpse into my creative world:
+    </p>
+
+    <div class="gallery">
+      <!-- Painting 1 -->
+      <div class="art">
+        <img src="akonato.jpg" alt="Painting 1">
+        <div class="art-description">A portrait that reflects inner calm and subtle strength. One of my first detailed face studies.</div>
+      </div>
+
+      <!-- Painting 2 -->
+      <div class="art">
+        <img src="akonato.jpg" alt="Painting 2">
+        <div class="art-description">This piece explores balance using soft color gradients and abstract shapes, inspired by my Libra nature.</div>
+      </div>
+
+      <!-- Painting 3 -->
+      <div class="art">
+        <img src="akonato.jpg" alt="Painting 3">
+        <div class="art-description">A minimalist scene inspired by Cordillera mountains and my roots—serene, still, and close to home.</div>
+      </div>
+    </div>
+
+    <a href="index.html" class="back-button">← Back to Home</a>
+  </div>
+</body>
+</html>
